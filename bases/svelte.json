@@ -16,8 +16,7 @@
       enable source maps by default.
      */
     "sourceMap": true,
-    /** Requests the runtime types from the svelte modules by default. Needed for TS files or else you get errors. */
-    "types": ["svelte"],
+    "typeRoots": ["./node_modules/@types", "./node_modules/svelte/types"],
 
     "strict": false,
     "esModuleInterop": true,
